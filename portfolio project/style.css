@@ -163,11 +163,12 @@ section .title::after{
 
 
 /* home section styling */
+
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/IT.jpg") no-repeat center;
     height: 100vh;
-    color: #fff;
+    color: black;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -199,7 +200,7 @@ section .title::after{
 .home .home-content a{
     display: inline-block;
     background: crimson;
-    color: #fff;
+    color: black;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
@@ -259,9 +260,7 @@ section .title::after{
 
 
 /* skills section styling */
-.skills{
-    border: #111;
-}
+
 .skills .title::after{
     content: "what i know";
 }
